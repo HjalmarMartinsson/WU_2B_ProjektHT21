@@ -1,0 +1,47 @@
+.menyflikar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+.bild_på_husen {
+    border-radius: 40px;
+    margin-top: 100px;
+  }
+
+#gridwrapper {
+
+    display: grid;
+    grid-template-rows: 100px 4fr;
+    grid-template-columns: 2fr;
+    grid-template-areas: 
+    "ti ti"
+    "b1 t1"
+    "b2 t2"
+    "b3 t3"
+    "b4 t4"
+    ;
+}
+
+#title{
+    grid-area: ti;
+}
+#bi1{grid-area: b1;
+    height: 400px;
+    width: 400px;
+}
+#bi2{grid-area: b2;
+    height: 400px;
+    width: 400px;
+}
+#bi3{grid-area: b3;
+    height: 400px;
+    width: 400px;
+
+}
+#bi4{grid-area: b4;
+    height: 400px;
+    width: 400px;
+
+}
